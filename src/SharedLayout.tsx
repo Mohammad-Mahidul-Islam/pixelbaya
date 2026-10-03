@@ -282,7 +282,7 @@ export function SharedFooter() {
 
 export function PageShell({ children }: { children: React.ReactNode }) {
   return (
-    <div style={{ background: '#0A0000', minHeight: '100vh', position: 'relative' }}>
+    <div style={{ background: '#0A0000', minHeight: '100vh', position: 'relative', width: '100%', maxWidth: '100vw', overflowX: 'clip' }}>
       <GlassBg />
       <div style={{ position: 'relative', zIndex: 1 }}>
         <SharedNav />
