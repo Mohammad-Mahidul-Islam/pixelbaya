@@ -316,7 +316,7 @@ function Hero() {
       </div>
 
       {/* Scrolling project strip */}
-      <div style={{ marginTop: 'clamp(40px, 6vh, 72px)', overflow: 'hidden' }}>
+      <div style={{ marginTop: 'clamp(40px, 6vh, 72px)', overflow: 'hidden', marginLeft: 'calc(-1 * clamp(20px, 4vw, 60px))', marginRight: 'calc(-1 * clamp(20px, 4vw, 60px))' }}>
         <ProjectStrip direction="left" />
       </div>
     </section>
@@ -527,10 +527,11 @@ function Work() {
       </div>
 
       {/* Horizontal scroll */}
-      <div ref={scrollRef} style={{ display: 'flex', gap: 20, overflowX: 'auto', padding: '0 clamp(20px,4vw,60px) 20px', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+      <div ref={scrollRef} style={{ display: 'flex', gap: 20, overflowX: 'auto', width: '100%', padding: '0 0 20px 20px', scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
         {FEATURED_WORKS.map((p, i) => (
           <WorkCard key={i} project={p} />
         ))}
+        <div aria-hidden style={{ flex: '0 0 1px' }} />
       </div>
     </section>
   )
@@ -1952,7 +1953,7 @@ function WhyChooseUs() {
 
 export default function App() {
   return (
-    <div style={{ background: 'transparent', position: 'relative', width: '100%', maxWidth: '100vw', overflowX: 'clip' }}>
+    <div style={{ background: 'transparent', position: 'relative' }}>
       <GlassBg />
       <div style={{ position: 'relative', zIndex: 1 }}>
       <SharedNav />
