@@ -1952,7 +1952,7 @@ function WhyChooseUs() {
 
 export default function App() {
   return (
-    <div style={{ background: 'transparent', position: 'relative' }}>
+    <div style={{ background: 'transparent', position: 'relative', width: '100%', maxWidth: '100vw', overflowX: 'clip' }}>
       <GlassBg />
       <div style={{ position: 'relative', zIndex: 1 }}>
       <SharedNav />
