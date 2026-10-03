@@ -1358,7 +1358,7 @@ function Footer() {
 
 // ─── VideoShowcase ────────────────────────────────────────────────────────────
 
-const MAIN_VIDEO = { id: 'jMQKxVwsaH0', title: 'Video Edit' }
+const MAIN_VIDEO = { id: 'Ld6NXT1Owrg', title: 'Pixel Baya Intro' }
 const SHORTS = [
   { id: 'z6lmOjpH4Fo', title: 'Reel #1' },
   { id: '5K_TYT9x4eU', title: 'Reel #2' },
