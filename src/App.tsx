@@ -252,7 +252,7 @@ const SectionLabel = ({ children }: { children: string }) => (
 
 function Hero() {
   return (
-    <section style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center', padding: '120px clamp(20px, 4vw, 60px) 0', position: 'relative', overflow: 'hidden' }}>
+    <section style={{ minHeight: 'min(100vh, 880px)', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', padding: 'clamp(100px, 11vh, 140px) clamp(20px, 4vw, 60px) 0', position: 'relative', overflow: 'hidden' }}>
 
       {/* Glow */}
       <div style={{ position: 'absolute', top: '20%', left: '50%', transform: 'translate(-50%,-50%)', width: 600, height: 400, background: 'radial-gradient(ellipse, rgba(255,154,60,0.08) 0%, transparent 70%)', pointerEvents: 'none' }} />
@@ -316,7 +316,7 @@ function Hero() {
       </div>
 
       {/* Scrolling project strip */}
-      <div style={{ marginTop: 72, overflow: 'hidden' }}>
+      <div style={{ marginTop: 'clamp(40px, 6vh, 72px)', overflow: 'hidden' }}>
         <ProjectStrip direction="left" />
       </div>
     </section>
