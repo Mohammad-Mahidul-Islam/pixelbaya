@@ -9,6 +9,8 @@ const VIDEO_PROJECTS = {
     { id: 'z6lmOjpH4Fo', title: 'Reel #1', type: 'YouTube Short', year: '2025' },
     { id: '5K_TYT9x4eU', title: 'Reel #2', type: 'YouTube Short', year: '2025' },
     { id: 'dYUZihZN4Bo', title: 'Reel #3', type: 'YouTube Short', year: '2025' },
+    { id: 'EXJhU8rvnog', title: 'Reel #4', type: 'YouTube Short', year: '2025' },
+    { id: 'dp4SDmiKapw', title: 'Reel #5', type: 'YouTube Short', year: '2025' },
   ],
 }
 
