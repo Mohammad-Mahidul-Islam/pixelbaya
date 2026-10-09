@@ -293,7 +293,7 @@ function Hero() {
           }}>
             Book a free call ↗
           </a>
-          <a href="#work" style={{
+          <a href="calendar.app.google/3F3JkTLsPKTtWu979" style={{
             display: 'inline-flex', alignItems: 'center', gap: 8,
             fontSize: 14, fontWeight: 600, color: '#fff',
             background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
