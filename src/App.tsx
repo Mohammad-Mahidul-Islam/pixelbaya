@@ -284,23 +284,31 @@ function Hero() {
         </p>
 
         <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a href="#contact" style={{
-            display: 'inline-flex', alignItems: 'center', gap: 8,
-            fontSize: 14, fontWeight: 700, color: '#fff',
-            background: '#FF9A3C', borderRadius: 100, padding: '14px 32px',
-            textDecoration: 'none', letterSpacing: '-0.01em',
-            animation: 'pulse-gold 3s ease-in-out infinite',
-          }}>
+          <a
+            href="https://calendar.app.google/3F3JkTLsPKTtWu979"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 8,
+              fontSize: 14, fontWeight: 700, color: '#fff',
+              background: '#FF9A3C', borderRadius: 100, padding: '14px 32px',
+              textDecoration: 'none', letterSpacing: '-0.01em',
+              animation: 'pulse-gold 3s ease-in-out infinite',
+            }}
+          >
             Book a free call ↗
           </a>
-          <a href="calendar.app.google/3F3JkTLsPKTtWu979" style={{
-            display: 'inline-flex', alignItems: 'center', gap: 8,
-            fontSize: 14, fontWeight: 600, color: '#fff',
-            background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
-            borderRadius: 100, padding: '14px 32px', textDecoration: 'none',
-          }}>
+          <Link
+            to="/works"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 8,
+              fontSize: 14, fontWeight: 600, color: '#fff',
+              background: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.12)',
+              borderRadius: 100, padding: '14px 32px', textDecoration: 'none',
+            }}
+          >
             View our work
-          </a>
+          </Link>
         </div>
 
         {/* Avatar cluster */}
@@ -748,7 +756,9 @@ function WhyPixelBaya() {
 
         {/* CTA */}
         <div style={{ marginTop: 64, textAlign: 'center' }}>
-          <a href="#contact"
+          <a href="https://calendar.app.google/3F3JkTLsPKTtWu979"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ display: 'inline-flex', alignItems: 'center', gap: 10, fontSize: 15, fontWeight: 700, color: '#0A0000', background: '#FF9A3C', borderRadius: 100, padding: '16px 40px', textDecoration: 'none', transition: 'opacity 0.2s' }}
             onMouseEnter={e => (e.currentTarget.style.opacity = '0.85')}
             onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
@@ -1040,14 +1050,17 @@ function PlanCard({ plan, billing }: { plan: typeof PLANS['monthly'][0]; billing
       </div>
       {/* CTA */}
       <div style={{ padding: '0 32px 32px' }}>
-        <a href="#contact" style={{
-          display: 'block', textAlign: 'center', padding: '13px', borderRadius: 10,
-          fontSize: 14, fontWeight: 700, textDecoration: 'none',
-          background: plan.popular ? '#FF9A3C' : 'rgba(255,255,255,0.07)',
-          color: plan.popular ? '#0A0000' : '#fff',
-          border: plan.popular ? 'none' : '1px solid rgba(255,255,255,0.1)',
-          transition: 'opacity 0.2s',
-        }}
+        <a href="https://calendar.app.google/3F3JkTLsPKTtWu979"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            display: 'block', textAlign: 'center', padding: '13px', borderRadius: 10,
+            fontSize: 14, fontWeight: 700, textDecoration: 'none',
+            background: plan.popular ? '#FF9A3C' : 'rgba(255,255,255,0.07)',
+            color: plan.popular ? '#0A0000' : '#fff',
+            border: plan.popular ? 'none' : '1px solid rgba(255,255,255,0.1)',
+            transition: 'opacity 0.2s',
+          }}
           onMouseEnter={e => (e.currentTarget.style.opacity = '0.82')}
           onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
         >Get started →</a>
@@ -1663,12 +1676,16 @@ function WhatWeDo() {
               }}>
                 View all {tab.label} ↗
               </Link>
-              <a href="#contact" style={{
-                display: 'inline-flex', alignItems: 'center', gap: 8,
-                fontSize: 13, fontWeight: 700, color: 'rgba(255,255,255,0.7)',
-                border: '1px solid rgba(255,255,255,0.15)', borderRadius: 100,
-                padding: '12px 24px', textDecoration: 'none',
-              }}>
+              <a href="https://calendar.app.google/3F3JkTLsPKTtWu979"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 8,
+                  fontSize: 13, fontWeight: 700, color: 'rgba(255,255,255,0.7)',
+                  border: '1px solid rgba(255,255,255,0.15)', borderRadius: 100,
+                  padding: '12px 24px', textDecoration: 'none',
+                }}
+              >
                 Start a project
               </a>
             </div>
@@ -1919,14 +1936,17 @@ function WhyChooseUs() {
               Book a free 30-minute discovery call — no pitch, just honest conversation.
             </div>
           </div>
-          <a href="#contact" style={{
-            display: 'inline-flex', alignItems: 'center', gap: 8,
-            fontSize: 14, fontWeight: 700, color: '#FF9A3C',
-            background: 'transparent', borderRadius: 100,
-            padding: '13px 28px', textDecoration: 'none',
-            whiteSpace: 'nowrap',
-            transition: 'opacity 0.2s',
-          }}
+          <a href="https://calendar.app.google/3F3JkTLsPKTtWu979"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex', alignItems: 'center', gap: 8,
+              fontSize: 14, fontWeight: 700, color: '#FF9A3C',
+              background: 'transparent', borderRadius: 100,
+              padding: '13px 28px', textDecoration: 'none',
+              whiteSpace: 'nowrap',
+              transition: 'opacity 0.2s',
+            }}
             onMouseEnter={e => (e.currentTarget.style.opacity = '0.8')}
             onMouseLeave={e => (e.currentTarget.style.opacity = '1')}
           >
@@ -1956,23 +1976,23 @@ export default function App() {
     <div style={{ background: 'transparent', position: 'relative' }}>
       <GlassBg />
       <div style={{ position: 'relative', zIndex: 1 }}>
-      <SharedNav />
-      <Hero />
-      <Clients />
-      <Stats />
-      <Services />
-      <Work />
-      <VideoShowcase />
-      <WhatWeDo />
-      <WhyChooseUs />
-      <Testimonials />
-      <SkillsMarquee />
-      <Pricing />
-      <WhyPixelBaya />
-      <TrustedBy />
-      <HomeFAQ />
-      <Contact />
-      <SiteFooter />
+        <SharedNav />
+        <Hero />
+        <Clients />
+        <Stats />
+        <Services />
+        <Work />
+        <VideoShowcase />
+        <WhatWeDo />
+        <WhyChooseUs />
+        <Testimonials />
+        <SkillsMarquee />
+        <Pricing />
+        <WhyPixelBaya />
+        <TrustedBy />
+        <HomeFAQ />
+        <Contact />
+        <SiteFooter />
       </div>
     </div>
   )
